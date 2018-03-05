@@ -102,16 +102,15 @@ natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
 
-TMNT = rg.SimpleTurtle('turtle')
-TMNT.pen = rg.Pen('green', 20)
-TMNT.speed = 12
+tetl = rg.SimpleTurtle('turtle')
+tetl.pen = rg.Pen('green', 20)
+tetl.speed = 12
 
-TMNT.forward(100)
-TMNT.right(45)
-TMNT.forward(50)
-TMNT.right(45)
-TMNT.backward(100)
-
+tetl.forward(100)
+tetl.right(45)
+tetl.forward(50)
+tetl.right(45)
+tetl.backward(100)
 
 ###############################################################################
 #
@@ -129,7 +128,7 @@ TMNT.backward(100)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -156,7 +155,7 @@ TMNT.backward(100)
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
