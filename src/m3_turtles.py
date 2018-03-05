@@ -102,10 +102,20 @@ natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
 
+TMNT = rg.SimpleTurtle('turtle')
+TMNT.pen = rg.Pen('green', 20)
+TMNT.speed = 12
+
+TMNT.forward(100)
+TMNT.right(45)
+TMNT.forward(50)
+TMNT.right(45)
+TMNT.backward(100)
+
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more line of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
